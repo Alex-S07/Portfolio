@@ -44,17 +44,16 @@ body {
         section {
             min-height: 100vh; /* Each section takes up the full viewport height */
             width: 100vw; /* Ensures the section spans the full width of the viewport */
-            padding: 2rem;
+            padding: 2rem 0; /* Adds vertical padding for content */
             color: #fff; /* Text color to contrast with the background images */
             background-size: cover; /* Ensures the background image covers the entire section */
             background-position: center; /* Centers the background image */
             background-repeat: no-repeat; /* Prevents the background image from repeating */
-            background-attachment: fixed; /* Creates the scroll overlap effect */
-            animation: fadeIn 0.8s ease-in-out;or content alignment */
+            background-attachment: fixed; /* Enables the parallax effect */
             display: flex; /* Enables flexbox for content alignment */
-            flex-direction: column; /* Aligns content vertically */*/
+            flex-direction: column; /* Aligns content vertically */
             justify-content: center; /* Centers content vertically */
-            align-items: center; /* Centers content horizontally */t */
+            align-items: center; /* Centers content horizontally */
         }
 
         #about {
@@ -78,8 +77,9 @@ body {
         }
 
         .container {
-            max-width: 800px;
-            margin: auto;
+            max-width: 100%; /* Allow the container to span the full width */
+            margin: 0 auto; /* Center the content horizontally */
+            padding: 0 2rem; /* Add horizontal padding for content */
         }
         #contact p i {
             margin-right: 10px; /* Adds space between the icon and the text */
