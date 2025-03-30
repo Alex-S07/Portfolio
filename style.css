@@ -7,6 +7,7 @@ body {
         }
         header {
             background: #3f3e3f;
+
             color: #fff;
             padding: 0.5rem 0; /* Reduced padding to make the box smaller */
             text-align: center;
@@ -59,6 +60,12 @@ body {
 
         #about {
             background-image: url('https://i.pinimg.com/736x/62/36/13/623613b0a0e0fb5134a923caf352a2bd.jpg');
+        }
+
+        #about .container {
+            max-width: 800px; /* Limits the width of the text container */
+            margin: 0 auto; /* Centers the container horizontally */
+            text-align: left; /* Optional: Centers the text */
         }
 
         #about .container {
@@ -120,6 +127,7 @@ body {
         }
         ul li {
             background: #515054;
+
             margin: 0.5rem 0;
             padding: 0.5rem 1rem;
             border-radius: 4px;
@@ -207,4 +215,6 @@ body {
             padding: 0.5rem; /* Adds padding inside list items */
             border-radius: 4px; /* Rounds the corners */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+
         }
+
