@@ -3,11 +3,11 @@ body {
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background:  #bba2f1
-            color: #333;
+            background:  #393939;
         }
         header {
-            background: #9e62df;
+            background: #3f3e3f;
+
             color: #fff;
             padding: 0.5rem 0; /* Reduced padding to make the box smaller */
             text-align: center;
@@ -16,8 +16,8 @@ body {
             font-weight: bold;
         }
         .profile-photo {
-            width: 150px;
-            height: 150px;
+            width: 350px;
+            height: 450px;
             border-radius: 10%;
             border: 3px solid #c8bdbd;
             float: left; 
@@ -25,7 +25,7 @@ body {
             margin-bottom: 10px; 
         }
         nav {
-            background: #265e96;
+            background: #828384;
             color: #fff;
             padding: 1rem;
             text-align: center;
@@ -41,7 +41,7 @@ body {
             transition: color 0.3s ease;
         }
         nav a:hover {
-            color: #e9cc76;
+            color: #c8b376;
         }
         section {
             min-height: 100vh; /* Each section takes up the full viewport height */
@@ -59,7 +59,13 @@ body {
         }
 
         #about {
-            background-image: url('https://i.pinimg.com/736x/9d/7c/af/9d7caf002efa649234adcec4aadb96fc.jpg');
+            background-image: url('https://i.pinimg.com/736x/62/36/13/623613b0a0e0fb5134a923caf352a2bd.jpg');
+        }
+
+        #about .container {
+            max-width: 800px; /* Limits the width of the text container */
+            margin: 0 auto; /* Centers the container horizontally */
+            text-align: left; /* Optional: Centers the text */
         }
 
         #about .container {
@@ -69,19 +75,19 @@ body {
         }
 
         #education {
-            background-image: url('https://i.pinimg.com/736x/22/e4/75/22e475e272a3ea0d7a68dcc2e14a3eb6.jpg');
+            background-image: url('https://i.pinimg.com/736x/6b/75/01/6b7501c9a5f12e260756ca65087776b7.jpg');
         }
 
         #projects {
-            background-image: url('https://i.pinimg.com/736x/0c/eb/d3/0cebd3f568d8c7f5e537b13aaa64b3ee.jpg');
+            background-image: url('https://i.pinimg.com/736x/62/ed/95/62ed95e4b5e826a8b0960e54b1a11019.jpg');
         }
 
         #skills {
-            background-image: url('https://i.pinimg.com/736x/5f/d7/c9/5fd7c98da1167d8a3ce156387adbb236.jpg');
+            background-image: url('https://i.pinimg.com/736x/98/b2/1f/98b21fe35482ecd5174e282e49a2005d.jpg');
         }
 
         #contact {
-            background-image: url('https://i.pinimg.com/736x/e3/cf/87/e3cf87eabd598d6f2ff7d9ee1c9240c1.jpg');
+            background-image: url('https://i.pinimg.com/736x/ca/7e/88/ca7e88744381074f2073c398119f4935.jpg');
         }
 
         .container {
@@ -91,7 +97,7 @@ body {
         }
         #contact p i {
             margin-right: 10px; /* Adds space between the icon and the text */
-            color: #6188af; /* Icon color */
+            color: #5c6165; /* Icon color */
         }
         
         .social-icons {
@@ -101,13 +107,13 @@ body {
         .social-link {
             margin: 0 10px;
             font-size: 1.5rem;
-            color: #495057;
+            color: #a1a5a8;
             text-decoration: none;
             transition: color 0.3s ease;
         }
         
         .social-link:hover {
-            color: #6295cb; /* Change to your preferred hover color */
+            color: #8cbcf4; /* Change to your preferred hover color */
         }
         h2 {
             color: #ffffff;
@@ -120,14 +126,15 @@ body {
             padding: 0;
         }
         ul li {
-            background: #8c7cc2;
+            background: #515054;
+
             margin: 0.5rem 0;
             padding: 0.5rem 1rem;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         footer {
-            background: #9d65ca;
+            background: #545256;
             color: #fff;
             text-align: center;
             padding: 1rem 0;
@@ -208,4 +215,6 @@ body {
             padding: 0.5rem; /* Adds padding inside list items */
             border-radius: 4px; /* Rounds the corners */
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+
         }
+
