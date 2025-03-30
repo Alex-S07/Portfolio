@@ -90,7 +90,7 @@ body {
         }
         #contact p i {
             margin-right: 10px; /* Adds space between the icon and the text */
-            color: #5f676e; /* Icon color */
+            color: #5c6165; /* Icon color */
         }
         
         .social-icons {
@@ -106,7 +106,7 @@ body {
         }
         
         .social-link:hover {
-            color: #97a8bb; /* Change to your preferred hover color */
+            color: #8cbcf4; /* Change to your preferred hover color */
         }
         h2 {
             color: #ffffff;
@@ -126,7 +126,7 @@ body {
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         footer {
-            background: #6c686f;
+            background: #545256;
             color: #fff;
             text-align: center;
             padding: 1rem 0;
