@@ -3,11 +3,18 @@ body {
             margin: 0;
             padding: 0;
             line-height: 1.6;
+<<<<<<< Updated upstream
             background: linear-gradient(to right, #a9d5ec, #a9d5ec);
             color: #333;
         }
         header {
             background: #62a5df;
+=======
+            background:  #393939;
+        }
+        header {
+            background: #3f3e3f;
+>>>>>>> Stashed changes
             color: #fff;
             padding: 2rem 0;
             text-align: center;
@@ -23,7 +30,7 @@ body {
             margin-bottom: 10px; 
         }
         nav {
-            background: #265e96;
+            background: #828384;
             color: #fff;
             padding: 1rem;
             text-align: center;
@@ -39,7 +46,7 @@ body {
             transition: color 0.3s ease;
         }
         nav a:hover {
-            color: #e9cc76;
+            color: #c8b376;
         }
         section {
             min-height: 100vh; /* Each section takes up the full viewport height */
@@ -58,23 +65,23 @@ body {
         }
 
         #about {
-            background-image: url('https://i.pinimg.com/736x/9d/7c/af/9d7caf002efa649234adcec4aadb96fc.jpg');
+            background-image: url('https://i.pinimg.com/736x/62/36/13/623613b0a0e0fb5134a923caf352a2bd.jpg');
         }
 
         #education {
-            background-image: url('https://i.pinimg.com/736x/22/e4/75/22e475e272a3ea0d7a68dcc2e14a3eb6.jpg');
+            background-image: url('https://i.pinimg.com/736x/6b/75/01/6b7501c9a5f12e260756ca65087776b7.jpg');
         }
 
         #projects {
-            background-image: url('https://i.pinimg.com/736x/0c/eb/d3/0cebd3f568d8c7f5e537b13aaa64b3ee.jpg');
+            background-image: url('https://i.pinimg.com/736x/62/ed/95/62ed95e4b5e826a8b0960e54b1a11019.jpg');
         }
 
         #skills {
-            background-image: url('https://i.pinimg.com/736x/5f/d7/c9/5fd7c98da1167d8a3ce156387adbb236.jpg');
+            background-image: url('https://i.pinimg.com/736x/98/b2/1f/98b21fe35482ecd5174e282e49a2005d.jpg');
         }
 
         #contact {
-            background-image: url('https://i.pinimg.com/736x/e3/cf/87/e3cf87eabd598d6f2ff7d9ee1c9240c1.jpg');
+            background-image: url('https://i.pinimg.com/736x/ca/7e/88/ca7e88744381074f2073c398119f4935.jpg');
         }
 
         .container {
@@ -83,7 +90,11 @@ body {
         }
         #contact p i {
             margin-right: 10px; /* Adds space between the icon and the text */
+<<<<<<< Updated upstream
             color: #495057; /* Icon color */
+=======
+            color: #5f676e; /* Icon color */
+>>>>>>> Stashed changes
         }
         
         .social-icons {
@@ -93,13 +104,13 @@ body {
         .social-link {
             margin: 0 10px;
             font-size: 1.5rem;
-            color: #495057;
+            color: #a1a5a8;
             text-decoration: none;
             transition: color 0.3s ease;
         }
         
         .social-link:hover {
-            color: #6295cb; /* Change to your preferred hover color */
+            color: #97a8bb; /* Change to your preferred hover color */
         }
         h2 {
             color: #495057;
@@ -112,14 +123,22 @@ body {
             padding: 0;
         }
         ul li {
+<<<<<<< Updated upstream
             background: #98b9dc;
+=======
+            background: #515054;
+>>>>>>> Stashed changes
             margin: 0.5rem 0;
             padding: 0.5rem 1rem;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         footer {
+<<<<<<< Updated upstream
             background: #6091bb;
+=======
+            background: #6c686f;
+>>>>>>> Stashed changes
             color: #fff;
             text-align: center;
             padding: 1rem 0;
