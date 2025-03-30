@@ -1,10 +1,9 @@
-
-        body {
+body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background: linear-gradient(to right, #a9d5ec, #7da8be);
+            background: linear-gradient(to right, #a9d5ec, #a9d5ec);
             color: #333;
         }
         header {
@@ -43,17 +42,41 @@
             color: #e9cc76;
         }
         section {
+            min-height: 100vh; /* Each section takes up the full viewport height */
+            width: 100vw; /* Ensures the section spans the full width of the viewport */
             padding: 2rem;
-            margin: 2rem auto;
-            background: #b3d0e9;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(252, 251, 251, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #fff; /* Text color to contrast with the background images */
+            background-size: cover; /* Ensures the background image covers the entire section */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: fixed; /* Creates the scroll overlap effect */
+            animation: fadeIn 0.8s ease-in-out;or content alignment */
+            display: flex; /* Enables flexbox for content alignment */
+            flex-direction: column; /* Aligns content vertically */*/
+            justify-content: center; /* Centers content vertically */
+            align-items: center; /* Centers content horizontally */t */
         }
-        section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+
+        #about {
+            background-image: url('https://i.pinimg.com/736x/9d/7c/af/9d7caf002efa649234adcec4aadb96fc.jpg');
         }
+
+        #education {
+            background-image: url('https://i.pinimg.com/736x/22/e4/75/22e475e272a3ea0d7a68dcc2e14a3eb6.jpg');
+        }
+
+        #projects {
+            background-image: url('https://i.pinimg.com/736x/0c/eb/d3/0cebd3f568d8c7f5e537b13aaa64b3ee.jpg');
+        }
+
+        #skills {
+            background-image: url('https://i.pinimg.com/736x/5f/d7/c9/5fd7c98da1167d8a3ce156387adbb236.jpg');
+        }
+
+        #contact {
+            background-image: url('https://i.pinimg.com/736x/e3/cf/87/e3cf87eabd598d6f2ff7d9ee1c9240c1.jpg');
+        }
+
         .container {
             max-width: 800px;
             margin: auto;
@@ -116,7 +139,4 @@
                 opacity: 1;
                 transform: translateY(0);
             }
-        }
-        section {
-            animation: fadeIn 0.8s ease-in-out;
         }
