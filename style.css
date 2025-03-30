@@ -15,8 +15,8 @@ body {
             font-weight: bold;
         }
         .profile-photo {
-            width: 150px;
-            height: 150px;
+            width: 350px;
+            height: 450px;
             border-radius: 10%;
             border: 3px solid #c8bdbd;
             float: left; 
