@@ -3,27 +3,21 @@ body {
             margin: 0;
             padding: 0;
             line-height: 1.6;
-<<<<<<< Updated upstream
-            background: linear-gradient(to right, #a9d5ec, #a9d5ec);
-            color: #333;
-        }
-        header {
-            background: #62a5df;
-=======
             background:  #393939;
         }
         header {
             background: #3f3e3f;
->>>>>>> Stashed changes
             color: #fff;
-            padding: 2rem 0;
+            padding: 0.5rem 0; /* Reduced padding to make the box smaller */
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 20px; /* Font size remains the same */
+            font-weight: bold;
         }
         .profile-photo {
             width: 150px;
             height: 150px;
-            border-radius: 50%;
+            border-radius: 10%;
             border: 3px solid #c8bdbd;
             float: left; 
             margin-right: 20px; 
@@ -51,21 +45,26 @@ body {
         section {
             min-height: 100vh; /* Each section takes up the full viewport height */
             width: 100vw; /* Ensures the section spans the full width of the viewport */
-            padding: 2rem;
+            padding: 2rem 0; /* Adds vertical padding for content */
             color: #fff; /* Text color to contrast with the background images */
             background-size: cover; /* Ensures the background image covers the entire section */
             background-position: center; /* Centers the background image */
             background-repeat: no-repeat; /* Prevents the background image from repeating */
-            background-attachment: fixed; /* Creates the scroll overlap effect */
-            animation: fadeIn 0.8s ease-in-out;or content alignment */
+            background-attachment: fixed; /* Enables the parallax effect */
             display: flex; /* Enables flexbox for content alignment */
-            flex-direction: column; /* Aligns content vertically */*/
+            flex-direction: column; /* Aligns content vertically */
             justify-content: center; /* Centers content vertically */
-            align-items: center; /* Centers content horizontally */t */
+            align-items: center; /* Centers content horizontally */
         }
 
         #about {
             background-image: url('https://i.pinimg.com/736x/62/36/13/623613b0a0e0fb5134a923caf352a2bd.jpg');
+        }
+
+        #about .container {
+            max-width: 800px; /* Limits the width of the text container */
+            margin: 0 auto; /* Centers the container horizontally */
+            text-align: left; /* Optional: Centers the text */
         }
 
         #education {
@@ -85,16 +84,13 @@ body {
         }
 
         .container {
-            max-width: 800px;
-            margin: auto;
+            max-width: 100%; /* Allow the container to span the full width */
+            margin: 0 auto; /* Center the content horizontally */
+            padding: 0 2rem; /* Add horizontal padding for content */
         }
         #contact p i {
             margin-right: 10px; /* Adds space between the icon and the text */
-<<<<<<< Updated upstream
-            color: #495057; /* Icon color */
-=======
             color: #5f676e; /* Icon color */
->>>>>>> Stashed changes
         }
         
         .social-icons {
@@ -113,7 +109,7 @@ body {
             color: #97a8bb; /* Change to your preferred hover color */
         }
         h2 {
-            color: #495057;
+            color: #ffffff;
             border-bottom: 2px solid #ffffff;
             display: inline-block;
             margin-bottom: 1rem;
@@ -123,22 +119,14 @@ body {
             padding: 0;
         }
         ul li {
-<<<<<<< Updated upstream
-            background: #98b9dc;
-=======
             background: #515054;
->>>>>>> Stashed changes
             margin: 0.5rem 0;
             padding: 0.5rem 1rem;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         footer {
-<<<<<<< Updated upstream
-            background: #6091bb;
-=======
             background: #6c686f;
->>>>>>> Stashed changes
             color: #fff;
             text-align: center;
             padding: 1rem 0;
@@ -158,4 +146,65 @@ body {
                 opacity: 1;
                 transform: translateY(0);
             }
+        }
+
+        .education-grid {
+            display: flex; /* Enables a flexbox layout */
+            gap: 2rem; /* Adds space between the columns */
+            justify-content: space-between; /* Distributes the columns evenly */
+            flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+        }
+
+        .education-item {
+            flex: 1; /* Ensures both columns take up equal space */
+            min-width: 300px; /* Sets a minimum width for each column */
+            background: #f8f9fa; /* Light background for the items */
+            padding: 1rem; /* Adds padding inside each item */
+            border-radius: 8px; /* Rounds the corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        }
+
+        .education-item h3 {
+            margin-bottom: 0.5rem; /* Adds space below the heading */
+            color: #495057; /* Darker color for the heading */
+        }
+
+        .education-item p {
+            margin: 0.5rem 0; /* Adds space between paragraphs */
+            color: #333; /* Text color */
+        }
+
+        .skills-grid {
+            display: flex; /* Enables a flexbox layout */
+            gap: 2rem; /* Adds space between the columns */
+            justify-content: space-between; /* Distributes the columns evenly */
+            flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+        }
+
+        .skills-item {
+            flex: 1; /* Ensures both columns take up equal space */
+            min-width: 300px; /* Sets a minimum width for each column */
+            background: #f8f9fa; /* Light background for the items */
+            padding: 1rem; /* Adds padding inside each item */
+            border-radius: 8px; /* Rounds the corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        }
+
+        .skills-item h3 {
+            margin-bottom: 0.5rem; /* Adds space below the heading */
+            color: #495057; /* Darker color for the heading */
+        }
+
+        .skills-item ul {
+            list-style: none; /* Removes default list styling */
+            padding: 0; /* Removes default padding */
+        }
+
+        .skills-item ul li {
+            margin: 0.5rem 0; /* Adds space between list items */
+            color: #333; /* Text color */
+            background: #e9ecef; /* Light background for list items */
+            padding: 0.5rem; /* Adds padding inside list items */
+            border-radius: 4px; /* Rounds the corners */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
         }
