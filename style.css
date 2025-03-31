@@ -58,13 +58,34 @@ body {
         }
 
         #about {
-            background-image: url('https://i.pinimg.com/736x/62/36/13/623613b0a0e0fb5134a923caf352a2bd.jpg');
+            position: relative;
+            overflow: hidden;
+            color: #fff; /* Ensures text is readable on the video */
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Places the video behind the content */
+            overflow: hidden;
+        }
+
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the video covers the entire section */
         }
 
         #about .container {
-            max-width: 800px; /* Limits the width of the text container */
-            margin: 0 auto; /* Centers the container horizontally */
-            text-align: left; /* Optional: Centers the text */
+            position: relative;
+            z-index: 1; /* Ensures the content is above the video */
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 2rem;
         }
 
         #education {
