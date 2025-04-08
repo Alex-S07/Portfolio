@@ -9,10 +9,10 @@ body {
             background: #3f3e3f;
 
             color: #fff;
-            padding: 0.5rem 0; /* Reduced padding to make the box smaller */
+            padding: 0.5rem 0; 
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            font-size: 20px; /* Font size remains the same */
+            font-size: 20px; 
             font-weight: bold;
         }
         .profile-photo {
@@ -91,13 +91,13 @@ body {
         }
 
         .container {
-            max-width: 100%; /* Allow the container to span the full width */
-            margin: 0 auto; /* Center the content horizontally */
-            padding: 0 2rem; /* Add horizontal padding for content */
+            max-width: 100%; 
+            margin: 0 auto; 
+            padding: 0 2rem; 
         }
         #contact p i {
-            margin-right: 10px; /* Adds space between the icon and the text */
-            color: #5c6165; /* Icon color */
+            margin-right: 10px;
+            color: #5c6165; 
         }
         
         .social-icons {
@@ -157,36 +157,36 @@ body {
         }
 
         .education-grid {
-            display: flex; /* Enables a flexbox layout */
-            gap: 2rem; /* Adds space between the columns */
-            justify-content: space-between; /* Distributes the columns evenly */
-            flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+            display: flex; 
+            gap: 2rem; 
+            justify-content: space-between; 
+            flex-wrap: wrap; 
         }
 
         .education-item {
-            flex: 1; /* Ensures both columns take up equal space */
-            min-width: 300px; /* Sets a minimum width for each column */
-            background: #f8f9fa; /* Light background for the items */
-            padding: 1rem; /* Adds padding inside each item */
-            border-radius: 8px; /* Rounds the corners */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+            flex: 1; 
+            min-width: 300px; 
+            background: #f8f9fa; 
+            padding: 1rem; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
         }
 
         .education-item h3 {
-            margin-bottom: 0.5rem; /* Adds space below the heading */
-            color: #495057; /* Darker color for the heading */
+            margin-bottom: 0.5rem; 
+            color: #495057; 
         }
 
         .education-item p {
-            margin: 0.5rem 0; /* Adds space between paragraphs */
-            color: #333; /* Text color */
+            margin: 0.5rem 0; 
+            color: #333; 
         }
 
         .skills-grid {
-            display: flex; /* Enables a flexbox layout */
-            gap: 2rem; /* Adds space between the columns */
-            justify-content: space-between; /* Distributes the columns evenly */
-            flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+            display: flex; 
+            gap: 2rem; 
+            justify-content: space-between; 
+            flex-wrap: wrap; 
         }
 
         .skills-item {
